@@ -21,8 +21,8 @@ export default function Footer() {
                 </div>
               </div>
               <button className="flex border-2 px-4 py-2 items-center rounded-full space-x-2">
-                <img className="size-5" src="/grommet-icons_apple.png" alt="" />
-                <img className="size-5" src="/mage_playstore.png" alt="" />
+                <img className="size-5" src="grommet-icons_apple.png" alt="" />
+                <img className="size-5" src="mage_playstore.png" alt="" />
                 <ArrowDownToLine
                   className="bg-black p-1 rounded-full"
                   size={25}
