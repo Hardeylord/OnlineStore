@@ -1,0 +1,27 @@
+.reviews-container {
+padding: 0px;
+}
+
+.profile-stack {
+display: flex;
+align-items: center;
+}
+
+.profile-image {
+width: 44px!important; /* adjust the size of avatar images - keep width and height the same */
+height: 44px!important; /* adjust the size of avatar images - keep width and height the same */
+border-radius: 50%!important;
+border: 2px solid white !important; /* adjust the boder color and width */
+margin-right: -12px; /* adjust for the overlap effect */
+transition: transform 0.3s ease;
+object-fit: cover;
+}
+
+.profile-image:hover {
+transform: translateY(-5px);
+}
+
+/* Ensures last image doesn't have negative margin */
+.profile-image:last-child {
+margin-right: 0;
+} 
