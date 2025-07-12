@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative -mt-10 bg-[url(public/professional-cyclist-woman-min.jpg)] h-fit md:h-screen bg-cover flex ">
+      <div className="relative -mt-10 bg-[url(professional-cyclist-woman-min.jpg)] h-fit md:h-screen bg-cover flex ">
         <div className="absolute inset-0 bg-black/40 z-0" />
         <div className="relative pt-20 md:flex z-10">
           <div className="md:w-1/2 space-y-4 py-16 px-10 md:h-full text-white flex flex-col md:justify-between md:items-start items-center">
