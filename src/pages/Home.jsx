@@ -17,7 +17,7 @@ import Slider from "../Components/Slider";
 
 export default function Home() {
   const slides = [
-    { image: "/public/professional-cyclist-woman-min.jpg" },
+    { image: "/professional-cyclist-woman-min.jpg" },
     { image: "/john-fornander-4R9CcBdQTEg-unsplash-min.jpg" },
     { image: "/massimiliano-mancini-tKTZ1rHpX4Y-unsplash-min.jpg" },
     { image: "/tennis-min.jpg" },
