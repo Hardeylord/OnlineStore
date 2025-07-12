@@ -14,10 +14,10 @@ export default function Header() {
         <div className="hidden md:flex">
           <ul className="flex space-x-8 text-white">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/OnlineStore">Home</Link>
             </li>
             <li>
-              <Link to="/store">Store</Link>
+              <Link to="/OnlineStore/store">Store</Link>
             </li>
             <li>About Us</li>
             <li>Offer</li>
@@ -52,10 +52,10 @@ export default function Header() {
         <div className="bg-[#1F1F1F] h-fit mt-2 rounded-2xl md:hidden">
           <ul className=" text-white p-10 flex flex-col space-y-7 items-center">
             <li>
-              <Link onClick={() => setopenHeader(false)} to="/">Home</Link>
+              <Link onClick={() => setopenHeader(false)} to="/OnlineStore">Home</Link>
             </li>
             <li>
-              <Link onClick={() => setopenHeader(false)} to="/store">Store</Link>
+              <Link onClick={() => setopenHeader(false)} to="/OnlineStore/store">Store</Link>
             </li>
             <li>About Us</li>
             <li>Offer</li>
