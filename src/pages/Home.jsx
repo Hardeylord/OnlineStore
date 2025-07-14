@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative -mt-10 bg-[url(/professional-cyclist-woman-min.jpg)] h-fit md:h-screen bg-cover flex ">
+      <div className="relative pb-2 -mt-10 bg-[url(/professional-cyclist-woman-min.jpg)] h-fit  bg-cover flex ">
         <div className="absolute inset-0 bg-black/40 z-0" />
         <div className="relative pt-20 md:flex z-10">
           <div className="md:w-1/2 space-y-4 py-16 px-10 md:h-full text-white flex flex-col md:justify-between md:items-start items-center">
@@ -131,19 +131,19 @@ export default function Home() {
               <Shrub size={40} color="#fffafa" strokeWidth={0.75} />
             </div>
             <div className="space-x-1 flex text-xs">
-              <button className="px-4 py-2 border-[1px] rounded-full bg-white">
+              <button className="px-4 py-2 border-[1px] border-black rounded-full bg-white">
                 Competition
               </button>
               <button className="px-4 py-2 text-white  rounded-full bg-black">
                 Training
               </button>
-              <button className="px-4 py-2 border-[1px] rounded-full bg-white">
+              <button className="px-4 py-2 border-[1px] border-black  rounded-full bg-white">
                 Friendly Match
               </button>
             </div>
           </div>
           {/* lower */}
-          <div className="w-full flex flex-col md:flex-row rounded-4xl h-[60vh] bg-[#6E9A7F] p-4">
+          <div className="w-full flex flex-col rounded-3xl md:flex-row h-[60vh] bg-[#6E9A7F] p-4">
             <Slider slides={slides} />
           </div>
         </div>
