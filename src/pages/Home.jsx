@@ -17,17 +17,17 @@ import Slider from "../Components/Slider";
 
 export default function Home() {
   const slides = [
-    { image: "professional-cyclist-woman-min.jpg" },
-    { image: "john-fornander-4R9CcBdQTEg-unsplash-min.jpg" },
-    { image: "massimiliano-mancini-tKTZ1rHpX4Y-unsplash-min.jpg" },
-    { image: "tennis-min.jpg" },
-    {image:"mick-de-paola-LUPJoR3OfEg-unsplash.jpg"}
+    { image: "/professional-cyclist-woman-min.jpg" },
+    { image: "/john-fornander-4R9CcBdQTEg-unsplash-min.jpg" },
+    { image: "/massimiliano-mancini-tKTZ1rHpX4Y-unsplash-min.jpg" },
+    { image: "/tennis-min.jpg" },
+    {image:"/mick-de-paola-LUPJoR3OfEg-unsplash.jpg"}
   ];
 
   return (
     <>
       {/* Hero Section */}
-      <div className="relative -mt-10 bg-[url(professional-cyclist-woman-min.jpg)] h-fit md:h-screen bg-cover flex ">
+      <div className="relative -mt-10 bg-[url(/professional-cyclist-woman-min.jpg)] h-fit md:h-screen bg-cover flex ">
         <div className="absolute inset-0 bg-black/40 z-0" />
         <div className="relative pt-20 md:flex z-10">
           <div className="md:w-1/2 space-y-4 py-16 px-10 md:h-full text-white flex flex-col md:justify-between md:items-start items-center">
@@ -116,10 +116,10 @@ export default function Home() {
                 <button className="flex border-2 px-4 py-2 items-center rounded-full space-x-2">
                   <img
                     className="size-5"
-                    src="grommet-icons_apple.png"
+                    src="/grommet-icons_apple.png"
                     alt=""
                   />
-                  <img className="size-5" src="mage_playstore.png" alt="" />
+                  <img className="size-5" src="/mage_playstore.png" alt="" />
                   <ArrowDownToLine
                     className="bg-black p-1 rounded-full"
                     size={25}
@@ -167,7 +167,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex space-x-5 md:space-x-10">
-            <div className="relative w-1/2 md:w-60 h-[40vh] rounded-3xl bg-cover bg-center bg-[url(jacek-dylag-fZglO1JkwoM-unsplash-min.jpg)]">
+            <div className="relative w-1/2 md:w-60 h-[40vh] rounded-3xl bg-cover bg-center bg-[url(/jacek-dylag-fZglO1JkwoM-unsplash-min.jpg)]">
               <div className="w-fit absolute right-30 top-20 md:right-48 bg-black p-7 rounded-full">
                 <Plus size={40} color="#fffafa" strokeWidth={0.75} />
               </div>
@@ -215,7 +215,7 @@ export default function Home() {
         <div className="bg-[#6E9A7F] px-5 md:px-10 py-5 rounded-2xl flex flex-col
           justify-between relative md:w-1/2">
           <img
-            src="Highlight_11.png"
+            src="/Highlight_11.png"
             alt="background"
             className="absolute inset-0 w-full h-full object-cover opacity-30 pointer-events-none"
           />
@@ -252,7 +252,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="bg-[url(robert-ruggiero-buGdVvTxJ38-unsplash-min.jpg)] bg-cover bg-center px-10 py-5 rounded-2xl flex flex-col
+        <div className="bg-[url(/robert-ruggiero-buGdVvTxJ38-unsplash-min.jpg)] bg-cover bg-center px-10 py-5 rounded-2xl flex flex-col
           justify-between relative md:w-1/2 overflow-hidden">
             <div className="absolute inset-0 bg-black/50 z-0" />
           <div className="relative z-10 text-white">
