@@ -42,7 +42,7 @@ export default function Store() {
           </button>
         </div>
       ) : (
-        <div className="grid mt-6 p-3 gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid mt-20 p-3 gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {products.map((product, index) => (
             <div
               key={index}
@@ -109,7 +109,7 @@ export default function Store() {
 
         {/* product image */}
         <img
-          src={<ImagePlus size={28} color="#fffafa" strokeWidth={0.75} /> ||productimagePreview}
+          src={<ImagePlus size={28} color="#fffafa" strokeWidth={0.75} /> || productimagePreview}
           className="size-29"
         />
         <label
@@ -145,9 +145,9 @@ export default function Store() {
         </button>
       </div>
     </div>
-      ): products.length>0? (
+      ): products.length>0 ? (
         <div className="flex flex-col space-y-3 justify-center m-8 items-center">
-              <p className="text-5xl font-bold">Add more Product</p>
+              <p className="text-5xl font-bold text-center">Add more Product</p>
               <button
                 className="bg-cyan-600 flex justify-center space-x-3 p-2 rounded-full cursor-pointer text-white text-xl"
                 onClick={()=>setshowForm(true)}
