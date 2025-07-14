@@ -65,23 +65,11 @@ export default function Home() {
             </div>
           </div>
           {/* right part */}
-          <div className="md:w-1/2 md:space-y-2  md:py-16 px-10 md:h-full flex flex-col justify-between items-center md:items-end">
-            {/* buttons */}
-            {/* <div className="hidden md:flex flex-col space-y-2">
-              <button className="px-4 py-2 rounded-full bg-white">
-                instagram
-              </button>
-              <button className="px-4 py-2 rounded-full bg-white">
-                Twitter
-              </button>
-              <button className="px-4 py-2 rounded-full bg-white">
-                Facebook
-              </button>
-            </div> */}
+          <div className="md:w-1/2 md:space-y-2  md:py-16 md:px-10 md:h-full flex flex-col justify-between items-center md:items-end">
 
             {/* refer */}
-            <div className="space-y-7 flex items-center md:flex-col  md:items-end">
-              <div className="w-96 h-48 rounded-2xl p-7 space-y-6 flex flex-col justify-center bg-white/30 backdrop-blur-md">
+            <div className="space-y-7  flex items-start md:flex-col  md:items-end">
+              <div className="w-fit md:w-96 h-48 rounded-2xl p-7 space-y-6 flex flex-col justify-center bg-white/30 backdrop-blur-md">
                 <div className="text-white">
                   <p className="text-3xl">Refer a friend</p>
                   <p>Shar your referral link with friends</p>
@@ -134,12 +122,12 @@ export default function Home() {
       </div>
 
       {/* discovery */}
-      <div className="w-full px-10 mt-20 md:space-x-32 flex flex-col md:flex-row">
+      <div className="w-full px-5 md:px-10 mt-20 md:space-x-32 flex flex-col md:flex-row">
         {/* left */}
         <div className="md:w-1/2 space-y-10">
           {/* upper */}
-          <div className="flex justify-between items-center space-x-2">
-            <div className="w-fit bg-black p-7 rounded-full">
+          <div className="flex justify-center md:justify-between items-center space-x-2">
+            <div className="w-fit hidden md:flex bg-black p-7 rounded-full">
               <Shrub size={40} color="#fffafa" strokeWidth={0.75} />
             </div>
             <div className="space-x-1 flex text-xs">
@@ -155,7 +143,7 @@ export default function Home() {
             </div>
           </div>
           {/* lower */}
-          <div className="w-full rounded-4xl flex h-[60vh] bg-[#6E9A7F] p-4">
+          <div className="w-full flex flex-col md:flex-row rounded-4xl h-[60vh] bg-[#6E9A7F] p-4">
             <Slider slides={slides} />
           </div>
         </div>
@@ -166,13 +154,13 @@ export default function Home() {
               Discover Excellence in Courts, Fields, and Beyond
             </p>
           </div>
-          <div className="flex space-x-5 md:space-x-10">
-            <div className="relative w-1/2 md:w-60 h-[40vh] rounded-3xl bg-cover bg-center bg-[url(/jacek-dylag-fZglO1JkwoM-unsplash-min.jpg)]">
-              <div className="w-fit absolute right-30 top-20 md:right-48 bg-black p-7 rounded-full">
+          <div className="flex flex-col md:flex-row space-x-5 md:space-x-10">
+            <div className="relative  md:w-60 h-[40vh] rounded-3xl bg-cover bg-center bg-[url(/jacek-dylag-fZglO1JkwoM-unsplash-min.jpg)]">
+              <div className="w-fit hidden md:flex absolute right-30 top-20 md:right-48 bg-black p-7 rounded-full">
                 <Plus size={40} color="#fffafa" strokeWidth={0.75} />
               </div>
             </div>
-            <div className="flex flex-col space-y-3 justify-center w-1/2">
+            <div className="flex flex-col mt-3 space-y-3 justify-center md:w-1/2">
               <Boxes size={28} color="black" strokeWidth={0.75} />
               <p className="font-medium">
                 Our top-tier sports facilities feature a range of courts and
@@ -233,8 +221,8 @@ export default function Home() {
                 individualized <br /> Training
               </p>
             </div>
-            <button className="flex bg-black py-4 px-10 rounded-full space-x-2">
-              <p className="text-5xl flex items-center">
+            <button className="flex bg-black py-4  px-10 rounded-full space-x-2">
+              <p className="text-2xl md:text-5xl flex items-center">
                 $50 <span className="text-xl font-light">/Session</span>
               </p>
             </button>
@@ -252,7 +240,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="bg-[url(/robert-ruggiero-buGdVvTxJ38-unsplash-min.jpg)] bg-cover bg-center px-10 py-5 rounded-2xl flex flex-col
+        <div className="bg-[url(/robert-ruggiero-buGdVvTxJ38-unsplash-min.jpg)] bg-cover bg-center px-5 md:px-10 py-5 rounded-2xl flex flex-col
           justify-between relative md:w-1/2 overflow-hidden">
             <div className="absolute inset-0 bg-black/50 z-0" />
           <div className="relative z-10 text-white">
@@ -270,7 +258,7 @@ export default function Home() {
               </p>
             </div>
             <button className="flex bg-black py-4 px-10 rounded-full space-x-2">
-              <p className="text-5xl flex items-center">
+              <p className="text-2xl md:text-5xl flex items-center">
                 $98 <span className="text-xl font-light">/Session</span>
               </p>
             </button>

@@ -37,7 +37,7 @@ export default function Slider({ slides }) {
   return (
     <>
       <div
-        className="bg-center w-1/2 bg-cover bg-no-repeat rounded-4xl"
+        className="bg-center h-full md:w-1/2 bg-cover bg-no-repeat rounded-4xl"
         style={{
           backgroundImage: `url(${slides[currentIndex].image})`,
           height: "100%",
@@ -46,7 +46,7 @@ export default function Slider({ slides }) {
           backgroundSize: "cover",
         }}
       ></div>
-      <div className="w-1/2 space-y-4 py-2 px-6 flex flex-col justify-between">
+      <div className="md:w-1/2 space-y-4 py-2 px-6 flex flex-col justify-between">
         <div className="text-white space-y-2">
           <p className="md:text-xl text-xl font-medium">
             We provide premium courts for both individual and group training

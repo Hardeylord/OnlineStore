@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const [openHeader, setopenHeader] = useState(false);
   return (
-    <div className="pt-2 z-50 w-full fixed top-0 left-0 px-14">
+    <div className="pt-2 z-50 w-full fixed top-0 left-0 px-5 md:px-14">
       <div className="bg-[#1F1F1F] border-[#3d3d3d] border-[1px]   flex justify-between items-center p-[10px] rounded-[26px]">
         <div className="flex space-x-1">
           <img src="" alt="" />
